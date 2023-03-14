@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "norse";
+  src: url("coding-portfolio/Norse.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "codingPortfolio";
+  src: url("codingportfolio/codingportfolio.otf") format("opentype");
+}
+
+#top {
+  color: crimson;
+  font-size: 50px;
+  display: flex;
+  background-color: black;
+  width: 2505px;
+  position: absolute;
+  left: -5px;
+  flex-wrap: wrap;
+  font-family: 'Bakbak One', cursive;
+  padding: 30px;
+  top: -5px;
+}
+
+#links{
+  font-size:50px;
+  position:absolute;
+  top:500px;
+}
+
+#blogButton {
+  background-color: crimson;
+  padding: 10px;
+  font-family: 'Bakbak One', cursive;
+  font-size: 18px;
+  color: lightblue;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: crimson;
+  position: absolute;
+  top: 45px;
+  left: 2000px;
+}
+
+#aboutButton {
+  background-color: crimson;
+  padding: 10px;
+  font-family: 'Bakbak One', cursive;
+  font-size: 18px;
+  color: lightblue;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: crimson;
+  position: absolute;
+  top: 45px;
+  left: 2075px;
+}
+
+
+body {
+  background-color: crimson;
+}
+
+#rpsProject {
+  background-color: lightblue;
+  color: black;
+  font-family: "codingPortfolio", sans-serif;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+  left: 250px;
+  top: 200px;
+}
+
+
+#projectTitleOne {
+  font-family: "norse", sans-serif;
+  font-size: 85px;
+  position: absolute;
+  left: 41px;
+  color: red;
+}
+
+#projectOne {
+  color: lightblue;
+  position: absolute;
+  top: 300px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 40px;
+}
+
+#containerProjectOne {
+  background-color: black;
+  position: absolute;
+  color: lightblue;
+  display: flex;
+  width: 550px;
+  height: 525px;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: lightblue;
+  top: 300px;
+  left: 225px;
+}
+
+#projectTitleTwo {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 80px;
+  color: brown;
+  position: absolute;
+  left: 55px;
+}
+
+#rpsDescOne {
+  color: lightblue;
+  position: absolute;
+  top: 245px;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+}
+
+#rpsDescTwo {
+  color: lightblue;
+  position: absolute;
+  top: 350px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+}
+
+#rpsDescThree {
+  color: lightblue;
+  position: absolute;
+  top: 410px;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+}
+
+#containerProjectTwo {
+  background-color: black;
+  position: absolute;
+  color: lightblue;
+  display: flex;
+  width: 550px;
+  height: 525px;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: lightblue;
+  top: 300px;
+  left: 905px;
+}
+
+#etchasketchDescOne {
+  color: lightblue;
+  position: absolute;
+  top: 250px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 7px;
+}
+
+#etchasketchDescTwo {
+  color: lightblue;
+  position: absolute;
+  top: 345px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+}
+
+#etchasketchDescThree {
+  color: lightblue;
+  position: absolute;
+  top: 420px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+}
+
+#etchasketchProject {
+  background-color: lightblue;
+  color: black;
+  width: 100px;
+  height: 50px;
+  font-family: "codingPortfolio", sans-serif;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+  left: 245px;
+  top: 200px;
+}
+
+#projectTitleThree {
+  font-family: "Merienda One", cursive;
+  font-size: 75px;
+  position: absolute;
+  left: 90px;
+  color: lightblue;
+}
+
+#projectContainerThree {
+  background-color: black;
+  position: absolute;
+  color: lightblue;
+  display: flex;
+  width: 550px;
+  height: 525px;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: lightblue;
+  top: 300px;
+  left: 1575px;
+}
+
+#calculatorDescOne {
+  color: lightblue;
+  position: absolute;
+  top: 250px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 7px;
+}
+
+#calculatorDescTwo {
+  color: lightblue;
+  position: absolute;
+  top: 380px;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+}
+
+#calculatorDescThree {
+  color: lightblue;
+  position: absolute;
+  top: 460px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+}
+
+#calculatorProject {
+  background-color: lightblue;
+  color: black;
+  width: 100px;
+  font-family: "codingPortfolio", sans-serif;
+  height: 50px;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+  left: 245px;
+  top: 200px;
+}
