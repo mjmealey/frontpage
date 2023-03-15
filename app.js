@@ -1,42 +1,58 @@
-let blogButton = document.getElementById("blogButton")
-let aboutButton = document.getElementById("aboutButton")
-let contactButton = document.getElementById("contactButton")
-let rpsProject =  document.getElementById("rpsProject")
-let githubRepoOne = document.getElementById("githubRepoOne")
-let etchasketchProject = document.getElementById("etchasketchProject")
-let githubRepoTwo = document.getElementById("githubRepoTwo")
-let calculatorProject = document.getElementById("calculatorProject")
-let githubRepoThree = document.getElementById("githubRepoThree")
+let blogButton = document.getElementById("blogButton");
+let aboutButton = document.getElementById("aboutButton");
+let contactButton = document.getElementById("contactButton");
+let rpsProject = document.getElementById("rpsProject");
+let code = document.getElementById("code");
+let etchasketchProject = document.getElementById("etchasketchProject");
+let codeTwo = document.getElementById("codeTwo");
+let calculatorProject = document.getElementById("calculatorProject");
+let codeThree = document.getElementById("codeThree");
 
 
-calculatorProject.addEventListener("click", (e) => {
-    if(e.target.id === "calculatorProject"){
-        window.location.href = "https://mjmealey.github.io/calulator.app/"
-    }
-})
 
 rpsProject.addEventListener("click", (e) => {
-    if(e.target.id === "rpsProject"){
-        window.location.href="https://mjmealey.github.io/rockpaperscissors/"
+  if (e.target.id === "rpsProject") {
+    window.location.href = "https://mjmealey.github.io/rockpaperscissors/";
+  }
+});
+code.addEventListener("click", (e) => {
+  if (e.target.id === "code") {
+    window.location.href = "https://github.com/mjmealey/rock-paper-scissors";
+  }
+});
+
+etchasketchProject.addEventListener("click", (e) => {
+  if (e.target.id === "etchasketchProject") {
+    window.location.href = "https://mjmealey.github.io/etch-a-sketch/";
+  }
+});
+
+codeTwo.addEventListener("click", (e) => {
+    if(e.target.id === "codeTwo"){
+        window.location.href = "https://github.com/mjmealey/etch-a-sketch"
     }
 })
 
-etchasketchProject.addEventListener("click", (e) =>{
-    if(e.target.id === "etchasketchProject"){
-        window.location.href="https://mjmealey.github.io/etch-a-sketch/"
+calculatorProject.addEventListener("click", (e) => {
+    if (e.target.id === "calculatorProject") {
+      window.location.href = "https://mjmealey.github.io/calulator.app/";
     }
-})
+  });
 
-
+  codeThree.addEventListener("click", (e) => {
+    if(e.target.id === "codeThree"){
+        window.location.href = "https://github.com/mjmealey/calulator.app"
+    }
+  })
 
 blogButton.addEventListener("click", (e) => {
-    if(e.target.id === "blogButton"){
-        window.location.href = "https://mjmealey.github.io/blog/"
-    }
-})
+  if (e.target.id === "blogButton") {
+    window.location.href = "https://mjmealey.github.io/blog/";
+  }
+});
 
 aboutButton.addEventListener("click", (e) => {
-    if(e.target.id === "aboutButton"){
-        window.location.href = "https://mjmealey.github.io/aboutme/index.html"
-    }
-})
+  if (e.target.id === "aboutButton") {
+    window.location.href = "https://mjmealey.github.io/aboutme/";
+  }
+});
