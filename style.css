@@ -64,13 +64,15 @@ body {
 #rpsProject {
   background-color: lightblue;
   color: black;
-  font-family: "codingPortfolio", sans-serif;
+  left: 40px;
+  font-family: 'Bakbak One', cursive;
   width: 100px;
   height: 50px;
   position: absolute;
   border-radius: 20px;
   position: absolute;
-  left: 250px;
+  border-color:black;
+  left: 175px;
   top: 200px;
 }
 
@@ -80,7 +82,7 @@ body {
   font-size: 85px;
   position: absolute;
   left: 41px;
-  color: red;
+  color: crimson;
 }
 
 #projectOne {
@@ -92,8 +94,23 @@ body {
   flex-wrap: wrap;
   text-align: center;
   left: 40px;
+  font-family: 'Bakbak One', cursive;
 }
 
+#code{
+  background-color: lightblue;
+  color: black;
+  left: 40px;
+  font-family: 'Bakbak One', cursive;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+  border-color:black;
+  left: 300px;
+  top: 200px;
+}
 #containerProjectOne {
   background-color: black;
   position: absolute;
@@ -110,13 +127,6 @@ body {
   left: 225px;
 }
 
-#projectTitleTwo {
-  font-family: "Cabin Sketch", cursive;
-  font-size: 80px;
-  color: brown;
-  position: absolute;
-  left: 55px;
-}
 
 #rpsDescOne {
   color: lightblue;
@@ -167,6 +177,14 @@ body {
   left: 905px;
 }
 
+#projectTitleTwo {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 80px;
+  color: brown;
+  position: absolute;
+  left: 55px;
+}
+
 #etchasketchDescOne {
   color: lightblue;
   position: absolute;
@@ -205,11 +223,26 @@ body {
   color: black;
   width: 100px;
   height: 50px;
-  font-family: "codingPortfolio", sans-serif;
+  font-family: 'Bakbak One', cursive;
   position: absolute;
   border-radius: 20px;
+  border-color:black;
   position: absolute;
-  left: 245px;
+  left: 175px;
+  top: 200px;
+}
+
+#codeTwo{
+  background-color: lightblue;
+  color: black;
+  width: 100px;
+  height: 50px;
+  font-family: 'Bakbak One', cursive;
+  position: absolute;
+  border-radius: 20px;
+  border-color:black;
+  position: absolute;
+  left: 300px;
   top: 200px;
 }
 
@@ -274,11 +307,24 @@ body {
   background-color: lightblue;
   color: black;
   width: 100px;
-  font-family: "codingPortfolio", sans-serif;
   height: 50px;
+  font-family: 'Bakbak One', cursive;
   position: absolute;
   border-radius: 20px;
   position: absolute;
-  left: 245px;
+  left: 175px;
+  top: 200px;
+}
+
+#codeThree{
+  background-color: lightblue;
+  color: black;
+  width: 100px;
+  height: 50px;
+  font-family: 'Bakbak One', cursive;
+  position: absolute;
+  border-radius: 20px;
+  border-color:black;
+  left: 300px;
   top: 200px;
 }
