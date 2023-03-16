@@ -7,7 +7,7 @@ let etchasketchProject = document.getElementById("etchasketchProject");
 let codeTwo = document.getElementById("codeTwo");
 let calculatorProject = document.getElementById("calculatorProject");
 let codeThree = document.getElementById("codeThree");
-
+let linkedIn = document.getElementById("linkedIn")
 
 
 rpsProject.addEventListener("click", (e) => {
@@ -56,3 +56,9 @@ aboutButton.addEventListener("click", (e) => {
     window.location.href = "https://mjmealey.github.io/aboutme/";
   }
 });
+
+linkedIn.addEventListener("click", (e) => {
+if(e.target.id === "linkedIn"){
+    window.location.href = "https://www.linkedin.com/in/mark-mealey-24613726a/"
+}
+})
