@@ -28,6 +28,27 @@
   top:500px;
 }
 
+#bottomContainer{
+  position:absolute;
+  top:1210px;
+  left:-60px;
+  width:2650px;
+  height:200px;
+  background-color:black;
+  color:red;
+  border-radius:20px;
+  border-style:solid;
+  border-color:black;
+  font-family: "Bakbak One", cursive;
+  text-align:center;
+  justify-content:center;
+  display:flex;
+  flex-wrap:wrap;
+  font-size:20px;
+
+
+}
+
 #blogButton {
   background-color: crimson;
   padding: 10px;
@@ -36,12 +57,37 @@
   color: lightblue;
   border-radius: 20px;
   border-style: solid;
-  border-color: crimson;
+  border-color:black;
   position: absolute;
   top: 45px;
   left: 2000px;
 }
 
+#email{
+  position:absolute;
+  top:75px;
+}
+
+#phoneNumber{
+  position:absolute;
+  top:125px;
+  left:1245px;
+}
+#linkedIn{
+  background-color: crimson;
+  padding: 10px;
+  font-family: 'Bakbak One', cursive;
+  font-size: 18px;
+  color: lightblue;
+  border-radius: 20px;
+  border-style: solid;
+  border-color:black;
+  position: absolute;
+  top: 20px;
+  left: 1270px;
+  justify-content:center;
+  align-items:center;
+}
 #aboutButton {
   background-color: crimson;
   padding: 10px;
@@ -50,7 +96,7 @@
   color: lightblue;
   border-radius: 20px;
   border-style: solid;
-  border-color: crimson;
+  border-color:black;
   position: absolute;
   top: 45px;
   left: 2075px;
@@ -59,6 +105,8 @@
 
 body {
   background-color: crimson;
+  overflow-x:hidden;
+  overflow-y:hidden;
 }
 
 #rpsProject {
@@ -174,7 +222,7 @@ body {
   border-style: solid;
   border-color: lightblue;
   top: 300px;
-  left: 905px;
+  left: 950px;
 }
 
 #projectTitleTwo {
@@ -267,7 +315,7 @@ body {
   border-style: solid;
   border-color: lightblue;
   top: 300px;
-  left: 1575px;
+  left: 1665px;
 }
 
 #calculatorDescOne {
